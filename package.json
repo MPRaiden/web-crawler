@@ -1,0 +1,16 @@
+{
+  "name": "y",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Web Crawler designed to navigate the designated web page and return a report based on its findings.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
