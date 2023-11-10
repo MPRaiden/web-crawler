@@ -3,7 +3,7 @@ const normalizeURL = (url) => {
   try {
     const urlObject = new URL(url);
 
-    // Extract hostname and pathname only
+    // Extract hostname and pathname only && removes trailing forward slashes
     const modifiedURLObject = `${urlObject.hostname}${urlObject.pathname}`;
     return modifiedURLObject.replace(/\/+$/, '');
   } catch (error) {
